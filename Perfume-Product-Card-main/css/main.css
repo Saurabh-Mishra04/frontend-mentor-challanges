@@ -1,0 +1,134 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  font-family: Montserrat, sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  width: min(90vw, 600px);
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+section p {
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+}
+section h1 {
+  font-family: Fraunces;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+}
+
+.hero_img {
+  flex: 0 0 50%;
+}
+.hero_img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product {
+  background-color: hsl(0, 0%, 100%);
+  flex: 0 0 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.product h1 {
+  font-size: 2rem;
+}
+
+.product > p:first-of-type {
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-bottom: 0.2rem;
+}
+
+.price {
+  color: hsl(228, 12%, 48%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.price h1 {
+  color: hsl(158, 36%, 37%);
+  margin: 0;
+}
+.price s {
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  color: hsl(228, 12%, 48%);
+}
+
+button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+}
+button img {
+  width: 15px;
+  height: 15px;
+}
+
+button:hover {
+  background-color: hsl(158, 42%, 18%);
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+  section {
+    flex-direction: column;
+    width: 100%;
+    max-width: 345px;
+  }
+  .hero_img {
+    flex: 0 0 auto;
+    height: 240px;
+  }
+  .product {
+    padding: 1.5rem;
+    gap: 0.8rem;
+  }
+  .product h1 {
+    font-size: 1.8rem;
+  }
+  .price {
+    margin-top: 0.2rem;
+  }
+}/*# sourceMappingURL=main.css.map */

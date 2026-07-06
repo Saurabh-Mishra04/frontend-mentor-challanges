@@ -1,0 +1,39 @@
+button{
+    background: white;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 40px;
+    font-size: 15px;
+    font-family: $content;
+    margin: 80px 0 45px 47px;
+}
+.btn1{
+    color: $brightOrange;
+     &:hover {
+        background: transparent;
+        border: 2px solid white;
+        color: $white;
+    }
+}
+.btn2{
+    color: $cyan;
+    &:hover {
+        background: transparent;
+        border: 2px solid white;
+        color: $white;
+    }
+}
+.btn3{
+    color: $darkCyan;
+    &:hover {
+        background: transparent;
+        border: 2px solid white;
+        color: $white;
+    }
+}

@@ -1,0 +1,49 @@
+@use './colors' as *;
+
+.name{
+    max-height: 148px;
+}
+h1{
+    margin-top: 4rem ;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: $darkblue;
+    span{
+        margin: 0 0 0 5px;
+        font-weight: 700;
+        color: $gray;
+    }
+}
+.city{
+    padding: 0;
+    margin-bottom: 1.625rem;
+    font-weight: 700;
+    color: $gray;
+    font-size: 15px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid $grayishblue;
+    justify-content: space-evenly;
+    div{
+        padding: 20px 0px 0 0px;
+        text-align: center;
+    }
+}
+
+p{
+    font-size: 18px;
+    font-weight: 700;
+    color: $darkblue;
+    margin: 0;
+    .cap{
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: $gray;
+    }
+}

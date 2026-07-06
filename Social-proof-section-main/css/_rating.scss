@@ -1,0 +1,54 @@
+.rating{
+    margin: 25px 0 0 140px;
+    width: 545px;
+    height: auto;    
+    font-family: $content;
+    color: $heading;
+    font-size: 14px;
+    font-weight: 700;
+}
+.box1{
+    margin: 0 100px 15px 0;
+    width: 450px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: $lightMagneta;
+    border-radius: 10px;
+}
+.box1-text{
+    margin-left: 2rem;
+}
+.stars{
+    margin-left: 2rem;
+}
+.box2{
+    margin: 0 50px 15px 50px;
+    height: 60px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: $lightMagneta;
+    border-radius: 10px;
+}
+.box2-text{
+    margin-left: 2rem;
+}
+.box3{
+    margin: 0 0 0 90px;
+   //float: right;
+    height: 60px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: $lightMagneta;
+    border-radius: 10px;
+}
+
+.box3-text{
+    margin-left: 2rem;
+}
+

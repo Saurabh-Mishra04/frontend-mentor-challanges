@@ -1,0 +1,29 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: $lightGray;
+    font-family: $content;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0 auto;
+    max-width: 1430px;
+}
+.attribution {
+    font-size: 15px;
+    color: $headings;
+    font-weight: 600;
+    text-align: center; 
+    }
+.attribution a {
+    color: $blue;
+    text-decoration: none;
+    &:hover{
+        color: $orange;
+    }
+}

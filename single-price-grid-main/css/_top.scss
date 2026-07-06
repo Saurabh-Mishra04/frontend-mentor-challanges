@@ -1,0 +1,26 @@
+.top{
+    padding: 40px 45px;
+    max-height: 290px;
+    min-height: 210px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    h3{
+        margin-top: 0;
+        color: $yellow;
+        font-weight: 700;
+        padding-top: 25px;
+}
+}
+.top-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: $cyan;
+    margin: 0;
+}
+.top-content{
+    margin: 18px 0 0 0;
+    color: $blue;
+    line-height: 1.5rem;
+    font-size: 16px;
+}

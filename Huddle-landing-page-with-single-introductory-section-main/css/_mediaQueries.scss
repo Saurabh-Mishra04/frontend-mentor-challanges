@@ -1,0 +1,151 @@
+@media screen and  (min-width:1100px) and (max-width:1220px){
+    section{
+        img{
+            height: 450px;
+        }
+    }
+    .content{
+        padding-right: 0px;
+        padding-left: 40px;
+        h1{
+            white-space: nowrap;
+
+        }
+        p{
+            padding-right: 50px;
+        }
+        button{
+            width: 180px;
+            height: 45px;        
+        }
+    }
+}
+@media screen and (max-width:1100px) {
+    header, section, footer{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    section{
+        img{
+            height: 420px;
+        }
+    }
+    .content{
+        padding-right: 0;
+        padding-left: 20px;
+        h1{
+            font-size: 25px;
+        }
+        p{
+            padding-right: 45px;
+            line-height: 1.3rem;
+        }
+        button{
+            width: 180px;
+            height: 40px; 
+        }
+    }
+  
+}
+@media screen and (min-width:800px) and (max-width:900px) {
+    header, section, footer{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    header{
+        img{
+            height: 38px;
+        }
+    }
+    section{
+        img{
+            width: 480px;
+            height: 400px;
+        }
+    }
+    .content{
+        p{
+            padding-right: 25px;
+        }
+        button{
+            width: 150px;
+        }
+    }
+}
+@media screen and (max-width:800px){
+    header{
+        img{ 
+            height: 40px;
+            padding-left: 35px;
+        }        
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 600px;
+        }
+    }
+    .content{
+        padding: 0;
+        text-align: center;
+        p{
+            padding: 0;
+            margin: 0 50px 30px 50px;
+            
+        }
+    }
+}
+@media screen and (max-width:640px){
+    header{
+        img{
+            padding: 0;
+        }
+    }
+    section{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    footer{
+        .logos{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .attribution{
+            font-size: 14px;
+            margin-left: 0;
+        }
+    }
+}
+@media screen and (max-width:400px){
+    body{
+        background-image: url(./bg-mobile.svg);
+    }
+    header{
+        img{
+            width: 140px;
+        }
+    }
+    .content{
+        p{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        button{
+            width: 200px;
+            font-size: 14px;
+        }
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        .logos{padding:0}
+        .attribution{font-size: 15px;}
+    }
+}

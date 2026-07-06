@@ -1,0 +1,132 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
+  background-position: bottom 16rem left -18rem, top 22rem right -15rem;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.1rem;
+  color: hsl(0, 50%, 98%);
+}
+.attribution a {
+  color: rgba(238, 238, 238, 0.7333333333);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: #00FFF5;
+}
+
+main {
+  background-color: white;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 22.5rem;
+  height: 23.45rem;
+  border-radius: 0.72rem;
+}
+
+.image1 {
+  border-top-right-radius: 0.72rem;
+  border-top-left-radius: 0.72rem;
+  width: 100%;
+}
+
+.image2 {
+  position: absolute;
+  top: 5em;
+  left: 7em;
+  border-radius: 50%;
+  border: 5px solid hsl(0, 50%, 98%);
+}
+
+.name {
+  max-height: 148px;
+}
+
+h1 {
+  margin-top: 4rem;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(229, 23%, 23%);
+}
+h1 span {
+  margin: 0 0 0 5px;
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
+}
+
+.city {
+  padding: 0;
+  margin-bottom: 1.625rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
+  font-size: 15px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid hsl(224, 22%, 87%);
+  justify-content: space-evenly;
+}
+.info div {
+  padding: 20px 0px 0 0px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin: 0;
+}
+p .cap {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 59%);
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
+    background-position: bottom 25rem left -28rem, top 25rem right -28rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
+    background-position: bottom 25rem left -38rem, top 25rem right -38rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
+    background-position: bottom 18rem left -47rem, top 16rem right -46rem;
+  }
+  main {
+    width: 21rem;
+  }
+  .image2 {
+    left: 6.5em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

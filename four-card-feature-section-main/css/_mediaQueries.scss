@@ -1,0 +1,54 @@
+@media only screen and (min-width:400px) and (max-width:1158px){
+    .box1, .box3{
+        transform: none;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:400px){
+    header{
+        h1{
+            margin-left: 20px;
+            margin-right:20px;
+            font-size: 25px;
+        }
+        .btm{
+            font-size: 25px;                
+        }
+        .description{
+            padding-left: 20px;
+            padding-right: 20px;
+            width: auto;
+        }
+    }
+    .box1,.box2,.box3,.box4{
+        margin-left: 20px;
+        margin-right: 20px;
+        p{
+            padding-left: 30px;
+            padding-right: 20px;
+            font-size: 15px;
+        }
+    }
+    .box1, .box3{
+        transform: none;
+    }
+}
+@media only screen and (max-width:355px){
+    header{
+        h1{
+            font-size: 20px;
+        }
+        .btm{
+            font-size: 20px;
+        }
+    }
+    .box1,.box2,.box3,.box4{
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        p{
+            padding-left: 30px;
+            padding-right: 20px;
+            font-size: 13px;
+        }
+    }
+}

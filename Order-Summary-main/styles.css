@@ -1,0 +1,220 @@
+/* Everything uses border-box by default */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display", sans-serif;
+}
+/* Variable Declaration */
+:root{
+    --pale-blue: hsl(225, 100%, 94%); 
+    --bright-blue: hsl(245, 75%, 52%);
+    --plan-color: hsl(225, 100%, 98%);
+    --desat-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+main {
+    background-image: url('images/pattern-background-desktop.svg'), linear-gradient(#e0e8ff, #e0e8ff);
+    background-repeat: no-repeat;
+    background-position: top center, center center;
+    background-size: 100% 50%, 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;  /*for all links**/
+}
+/* card section */
+section{
+    background-color: #fff;
+    border-radius: 20px;
+    height: 700px;
+    width: 450px;
+    box-shadow: 0px 30px 30px #d0cde4;
+}
+.hero_img{
+    width: 100%;
+    max-height: 220px;
+    min-height: 140px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.order{
+    text-align: center;
+    margin: 24px 48px;
+}
+.order h1{
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 10px;
+    color: var(--dark-blue);
+}
+.order p{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--desat-blue);
+    line-height: 1.5rem;
+    margin: 22px 0 24px 0 ;
+}
+
+/* plan section */
+.plan{
+    background-color:var(--plan-color);
+    border-radius: 10px;
+    margin: 0 48px 32px 48px; /*giving top margin to button here itself*/
+    height: 99px;
+    display: flex;
+    flex-direction: row;
+    position: relative; /*when doing this with the code in comments below in .plan img */
+}
+.plan img{
+    /* got the same result as using margin for this img using the below code */
+    /* position: absolute;
+    top: 25px;
+    left: 25px;
+    vertical-align: middle; */
+    margin: 25px 0 25px 25px;
+    max-width: 48px;
+    max-height: 48px;
+}
+.plan a{
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--bright-blue);
+    position: absolute;
+    top: 50%;           
+    transform: translateY(-50%); 
+    right: 22px;
+}
+.plan a:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+.price {
+    margin: 25px 0 25px 21px ;
+}
+.price h3{
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 16px;
+}
+.price p{
+    color: var(--desat-blue);
+    font-weight: 500;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/* bottom and button section */
+.bottom{
+    text-align: center;
+    margin: 0 48px;
+}
+button{
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 52px;
+    background-color: var(--bright-blue);
+    box-shadow: 0 20px 20px #d0cde4;
+}
+button a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 900;
+}
+button:hover{opacity: 0.5;}
+
+.bottom p{
+    margin-top: 35px;
+    font-weight: 900;
+}
+.bottom p a{
+color: var(--desat-blue);
+    
+}
+.bottom p a:hover{color: var(--dark-blue);}
+
+/*media queries for mobile layout*/
+@media only screen and (min-width:275px) and (max-width:376px){
+
+    main{
+        background-image: url("images/pattern-background-mobile.svg");
+        background-size: 100%;
+        background-color: #e0e8ff;
+    }
+    section{
+        width: 324px;
+        max-height: 569px;
+        margin: 70px 24px;
+    }
+    .hero_img{
+            height: 160px;
+    }
+    .order {
+        padding: 0;
+        margin: 33px 35px 25px 35px ;
+        text-align: center;
+    }
+    .order h1{
+        padding: 0;
+        margin: 0 ;
+        font-size: 23px
+    }
+    .order p{
+        margin: 25px 0;
+        font-size: 15px;
+    }
+    .plan{
+        width: 278px;
+        margin: 0 24px 25px 24px;
+        height: 82px;
+    }
+    .plan img{
+        margin: 16px 21px 16px 16px;
+        width: 48px;
+        height:48px;
+    }
+    .plan a{
+        font-size: 13px;
+        right: 16px;
+    }
+    .price{
+        margin: 0;
+    }
+    .price h3{
+        margin-top: 21px;
+        font-size: 14px
+    }
+    .price p{
+        font-size: 13px;
+        margin: 3px 0 0 0;
+    }
+    .bottom{
+        margin: 0 24px;
+        font-size: 13px;
+    }
+    .bottom p {
+        margin-top: 20px;
+    }
+    .bottom a{
+        font-size: 14px;
+    }
+   
+    button{
+        height: 49px;
+    }
+    button a{
+        font-weight: 700;
+        font-size: 14px;
+    }
+}

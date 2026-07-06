@@ -1,0 +1,10 @@
+//Google font links which can also be embeded in the head of our html
+// <link rel="preconnect" href="https://fonts.gstatic.com">
+// <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet"> 
+// <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet"> 
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap);
+
+$heading: 'Big Shoulders Display', cursive; //primary font (heading )
+$content: 'Lexend Deca', sans-serif; //secondary font (content and button)

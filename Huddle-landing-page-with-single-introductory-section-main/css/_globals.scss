@@ -1,0 +1,85 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: $violet;
+    background-image: url(./bg-desktop.svg);
+    background-repeat: no-repeat;   
+}
+section{
+    max-width: 1440px;
+    min-width: auto;
+    display: flex;
+    color: white;
+    margin: auto 45px;
+}
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+
+    h1{
+        font-family: $heading;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    p{
+        font-family: $content;
+        padding-right: 80px;
+        line-height: 1.5rem;
+    }
+    button{
+        width: 200px;
+        height: 55px;
+        border-radius: 35px;
+        background-color: white;
+        font-size: 16px;
+        font-weight: 400;
+        color: $violet;
+        border: none;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.15), 0 6px 15px rgba(0,0,0,0.28);
+        &:hover{
+            cursor: pointer;
+            background-color: $magenta;
+            color: white;
+        }
+    }
+}
+
+
+footer{
+    margin: 25px 45px 0 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logos{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding: 15px 50px 15px 15px;
+        i{
+            border: 1px solid;
+            padding: 10px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            margin: 10px;
+            &:hover{
+                cursor: pointer;
+                color: $magenta;
+                border-color: $magenta;
+            }
+        }
+    }
+    .attribution {
+        margin-left: 15px;
+        font-weight: 600;
+        color: white;
+    }
+    .attribution a { 
+        text-decoration: none;
+        color: $magenta;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

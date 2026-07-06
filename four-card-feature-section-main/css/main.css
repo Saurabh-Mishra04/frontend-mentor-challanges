@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+header {
+  text-align: center;
+  padding: 80px 0 0 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 27px;
+  font-weight: 200;
+  color: #a3a5ae;
+}
+
+.btm {
+  font-size: 27px;
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+.description {
+  margin: 10px auto;
+  max-width: 520px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #a3a5ae;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px auto 0 auto;
+  max-width: 1430px;
+}
+
+.attribution {
+  font-size: 15px;
+  color: #4c4e61;
+  font-weight: 600;
+  text-align: center;
+}
+
+.attribution a {
+  color: #549ef2;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: #fcaf4a;
+}
+
+.box1, .box2, .box3, .box4 {
+  margin: 18px;
+  max-width: 350px;
+  min-width: 280px;
+  height: 250px;
+  background-color: white;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 10px 20px #a3a5ae;
+          box-shadow: 0px 10px 20px #a3a5ae;
+}
+
+.box1 {
+  border-top: 4px solid #45d3d3;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.box2 {
+  border-top: 4px solid #ea5353;
+}
+
+.box3 {
+  border-top: 4px solid #549ef2;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.box4 {
+  border-top: 4px solid #fcaf4a;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #4c4e61;
+  padding: 30px 0 0 33px;
+}
+
+p {
+  padding-left: 33px;
+  padding-right: 25px;
+  color: #a3a5ae;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 65px;
+  height: 64px;
+  float: right;
+  margin: 20px 30px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1158px) {
+  .box1, .box3 {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  header h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+  }
+  header .btm {
+    font-size: 25px;
+  }
+  header .description {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+  }
+  .box1, .box2, .box3, .box4 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .box1 p, .box2 p, .box3 p, .box4 p {
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 15px;
+  }
+  .box1, .box3 {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  header h1 {
+    font-size: 20px;
+  }
+  header .btm {
+    font-size: 20px;
+  }
+  .box1, .box2, .box3, .box4 {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .box1 p, .box2 p, .box3 p, .box4 p {
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

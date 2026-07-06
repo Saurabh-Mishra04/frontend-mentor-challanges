@@ -1,0 +1,23 @@
+@use './colors' as *;
+
+main{
+    background-color: white;
+    box-shadow: 7px 7px 7px rgba(0.1, 0.1, 0.1, 0.1);
+    position: relative;
+    width: 22.5rem;
+    height: 23.45rem;
+    border-radius: 0.720rem;
+}
+.image1{
+    border-top-right-radius: 0.720rem;
+    border-top-left-radius: 0.720rem;
+    width: 100%;
+}
+.image2{
+    position: absolute;
+    top: 5em;
+    left: 7em;
+    border-radius: 50%;
+    border: 5px solid $white;
+}
+
