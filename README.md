@@ -24,7 +24,7 @@ This index logs my deployed interface solutions. Each folder represents an indep
 | `05-single-price-grid-main` | HTML5, Clean Grid Components | [Live Demo 🔗](https://single-price-grid-delta-eight.vercel.app/) |
 | `06-Huddle-landing-page-with-single-introductory-section-main` | Full-Width Sections, Social Asset Injections | [Live Demo 🔗](https://huddle-landing-page-mauve-three.vercel.app/) |
 | `07-qr-code-component-main` | Fixed Flex Box Bounds, Vanilla Component Design | [Live Demo 🔗](https://qr-component-tan.vercel.app/) |
-| `Profile-card-component-master` | Relative Positioning, Absolute Asset Placements | [Live Demo 🔗](https://profile-card-component-tau-eight.vercel.app/) |
+| `08-Profile-card-component-master` | Relative Positioning, Absolute Asset Placements | [Live Demo 🔗](https://profile-card-component-tau-eight.vercel.app/) |
 | `09-Order-Summary-main` | HTML5, Hover States, SVG Backgrounds | [Live Demo 🔗](https://order-summary-roan-delta.vercel.app/)|
 | `10-Blog-Preview-Card-main` | HTML5, CSS Flexbox, Fluid Typography | [Live Demo 🔗](https://frontend-mentor-challanges-l1tk.vercel.app/) |
 | `11-Social-Links-Profile-main` | HTML5, Responsive CSS Flexbox | [Live Demo 🔗](https://social-links-profile-gold-kappa.vercel.app/) |
